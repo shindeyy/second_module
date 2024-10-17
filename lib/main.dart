@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:second_module/multiple_list_views.dart';
 
 class SecondModuleScreen extends StatelessWidget {
   const SecondModuleScreen({super.key});
@@ -22,7 +23,7 @@ class SecondModuleScreen extends StatelessWidget {
       },
       child: Scaffold(
         appBar: AppBar(title: const Text('Second Module')),
-        body: Center(child: const Text('This is the Second Module Screen')),
+        body: const MultipleListViews(),
       ),
     );
   }
