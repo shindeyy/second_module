@@ -23,7 +23,7 @@ class SecondModuleScreen extends StatelessWidget {
       },
       child: Scaffold(
         appBar: AppBar(title: const Text('Second Module')),
-        body: const MultipleListViews(),
+        body: const SynchronizedListView(),
       ),
     );
   }
